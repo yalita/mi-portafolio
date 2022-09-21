@@ -1,0 +1,123 @@
+.main_container {
+background-color: rgb(30, 30, 30);
+position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav_container {
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 25px;
+    text-decoration: none;
+    color: white;
+    margin-left: 70px;
+}
+
+
+.nav_options{
+    width: 60%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+    cursor:pointer;
+}
+
+
+
+.nav_home {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+.nav_home {
+    -webkit-transition: 05.s linear;
+  transition: 0.5s linear;
+  color: rgb(221, 214, 214);
+}
+
+.nav_options .active {
+    -webkit-box-shadow: 12px 12px 16px 12px rgba(0,0,0,0.47);
+  box-shadow: 12px 12px 16px 12px rgba(0,0,0,0.47);
+  color: white;
+}
+
+.nav_home:hover {
+    -webkit-box-shadow: 12px 12px 16px 12px rgba(0,0,0,0.47);
+  box-shadow: 12px 12px 16px 12px rgba(0,0,0,0.47);
+  color: white;
+}
+
+
+.nav_icons {
+    display: flex;
+    width: 13%;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+.nav_icons a{
+    margin-right: 10px;
+    border-radius: 60px;
+    background-color: transparent;
+    transition: background-color 0.7s linear;
+}
+.nav_icons a:hover {
+    background-color: white;
+    transition: background-color 0.7s linear;
+}
+
+.nav_profiles {
+    color: white !important;
+    align-items: center;
+    margin: 10px;
+    width: 30px !important;
+    height: 30px !important;
+    transition: color .5s;
+}
+
+.nav_profiles:hover {
+    color: rgb(55, 45, 45) !important;
+}
+
+.nav_connect {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.nav_button{
+    cursor: pointer;
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: background-color 0.5s linear;
+}
+
+.nav_button:hover {
+    background-color: white;
+    transition: background-color 0.5s linear;
+}
+
+.nav_button_contain {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    transition: color 0.5s linear;
+}
+
+.nav_button_contain:hover {
+    color: rgb(55, 45, 45)  ;
+    transition: color 0.5s linear;
+}

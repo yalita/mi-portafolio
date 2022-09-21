@@ -1,0 +1,5 @@
+nav bar con carrito de compras
+imagen "principal"
+ropa para comprar con precio 
+agregar prendas al carrito 
+poder pagar con mercado pago 

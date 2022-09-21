@@ -1,0 +1,112 @@
+.connect_container {
+    height: 800px;
+    width: 100%;
+    margin-top: -30px;
+    background: linear-gradient(to right, purple, black);
+}
+
+.connect_image {
+    display: flex;
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.connect {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+
+.connect_title {
+    margin-left: 20px;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.connect_form {
+    display: inline-block;
+}
+
+.connect_inputs {
+    margin: 20px;
+    /* display: inline-block; */
+}
+
+.connect_inputs1 {
+    display: inline-block;
+
+}
+
+.connect_inputs2{
+    display: inline-block;
+}
+
+
+.connect_inputs > input {
+    width: 200px;
+    height: 70px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 0 0 2px 2px gray;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+    padding: 20px;
+}
+
+.connect_inputs > input[type=text] {
+font-size: 15px;
+}
+
+
+.connect_message > textarea{
+    width: 450px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    box-sizing: border-box;
+    box-shadow: 0 0 2px 2px gray;
+    border: 1px solid white;
+    outline: none;
+    padding: 20px;
+}
+
+.textArea {
+    font-size: 15px;
+    color: white;
+}
+
+.connect_button {
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+
+
+.button_send {
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    transition: color 0.5s linear;
+}
+
+.button_send:hover {
+    color: purple;
+    transition: color 0.5s linear;
+}
+
+
+
